@@ -1,0 +1,39 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FEF4F5; }
+
+.bg-red-mm {
+  background-color: #FEF4F5; }
+
+.bg-mm {
+  background-color: #E12B37; }
+
+.text-mm {
+  color: #24272A; }
+
+.text-primary {
+  color: #E12B37; }
+
+.text-mm:hover {
+  color: #E12B37; }
+
+.logo {
+  width: 50%;
+  height: auto;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    width: 200px;
+    height: 30px; }
+
+  .h-80 {
+    height: 80vh; } }
+#btn-nav {
+  right: 2rem;
+  bottom: 2rem; }
+
+.toggle-position {
+  position: fixed; }
+
+/*# sourceMappingURL=bundle.css.map */
