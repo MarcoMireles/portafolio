@@ -27,19 +27,19 @@ get_header();
       </div>
     </div>
 
-    <div class=" grid grid-cols-1 gap-4">
-      <div class="flex flex-col lg:flex-row w-full bg-white max-w-screen-lg mx-auto">
-        <a href="#" class="w-full lg:w-1/3 h-full bg-cover bg-center bg-no-repeat" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/img/vegas.jpg')"> </a>
-        <div class="block py-8 px-6">
-          <div class="tags flex mb-4">
-            <a href="#" class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm text-gray-700 mr-2">#JQuery</a>
-            <a href="#" class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm text-gray-700 mr-2">#VegasJS</a>
-            <a href="#" class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm text-gray-700">#SlideShow</a>
-          </div>
-          <h2 class="text-2xl text-primary font-black lg:text-2xl mb-2">¿Cómo utilizar vegas slideshow?</h2>
-          <p class="text-mm font-normal text-base lg:text-lg mb-4">Dale un toque atractivo a ese backgound con este chulo slideshow.</p>
-          <a href="#" class="text-mm font-normal text-base lg:text-lg ">Ver más</a>
+    <div class=" grid grid-cols-1 lg:grid-cols-3 gap-4 bg-white max-w-screen-lg mx-auto mb-4">
+      <a href="#" class="w-full flex justify-center items-center" >
+        <img class="w-full" src="<?php echo get_stylesheet_directory_uri() ?>/img/vegas.jpg" alt="">
+      </a>
+      <div class="block py-8 px-6 lg:col-span-2">
+        <div class="tags flex mb-4">
+          <a href="#" class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm text-gray-700 mr-2">#JQuery</a>
+          <a href="#" class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm text-gray-700 mr-2">#VegasJS</a>
+          <a href="#" class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm text-gray-700">#SlideShow</a>
         </div>
+        <h2 class="text-2xl text-primary font-black lg:text-2xl mb-2">¿Cómo utilizar vegas slideshow?</h2>
+        <p class="text-mm font-normal text-base lg:text-lg mb-4">Dale un toque atractivo a ese backgound con este chulo slideshow.</p>
+        <a href="#" class="text-mm font-normal text-base lg:text-lg ">Ver más</a>
       </div>
     </div>
 
@@ -48,4 +48,3 @@ get_header();
 
 
 <?php get_footer(); ?>
-
