@@ -36,4 +36,29 @@ body {
 .toggle-position {
   position: fixed; }
 
+#paginacion {
+  display: block; }
+  #paginacion .page-numbers {
+    border: 1px solid #FEF4F5;
+    padding: 3px 10px; }
+  #paginacion .current {
+    border: 1px solid #E12B37;
+    background-color: #E12B37;
+    color: white; }
+  #paginacion .prev, #paginacion .next {
+    border: 1px solid #E12B37;
+    background-color: #E12B37;
+    color: white; }
+
+.contenedor-post p {
+  margin-bottom: 16px;
+  margin-top: 16px; }
+
+footer {
+  color: white;
+  background-color: #24272A; }
+
+.wp-block {
+  max-width: 1200px; }
+
 /*# sourceMappingURL=bundle.css.map */
